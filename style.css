@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+header>h1{
+    color: white;
+}
+
+#rede{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 1.7rem;
+}
+
+.social{
+    color: red;
+}
+
+.social:hover{
+    color: white;
+    scale: 1.2;
+}
+
+header:hover{
+    border-bottom: 2px red solid ;
+}
+
+header>h1:hover{
+    color: red;
+    border-bottom: solid white 1px;
+    scale: 0.8;
+}
+
